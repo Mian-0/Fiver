@@ -9,9 +9,120 @@ html{
 }
 body {
     background-color: #fff;
-    color: #62646a;
-    font: 400 16px/24px Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: 'Poppins', sans-serif;
     position: relative;
     width: 100%;
 }
 
+/* Header Section */
+.headerContainer{
+    background: black;
+    width: 100%;
+}
+.headerRow{
+    padding: 0 32px;
+    margin: 0 11px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.headerlinks{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.langauge-icon-header{
+    margin-right: 8px;
+}
+.HeaderBtnJoin{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-right: 0;
+    font-weight: 700;
+}
+.HeaderBtnJoin:hover{
+    background-color: #1dbf73;
+    border-color: #1dbf73;
+    transition: all .2s ease;
+}
+.HeaderMenuBtn{
+    background: none;
+    border: none;
+    margin-right: 15px;
+}
+.offcanvasHeader{
+    width: 272px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    transition: all .3s ease-in-out;
+    flex-direction: column;
+    transform: translateX(-300px);
+}
+.offcanvasHeaderOverlay{
+    background-color: rgba(0,0,0,.5);
+    width: 100vw;
+    transition: all .3s ease-in-out;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 272px;
+    transform: translateX(9000px);
+}
+.offcanvasHeaderColum{
+    padding-top: 20px;
+}
+.offcanvasHeaderBtn{
+    padding: 0 20px 20px;
+}
+.HeaderBtnJoinOffCanvas{
+    padding: 8px 24px;
+    background-color: #1dbf73;
+    border-color: #1dbf73;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.offcanvasHeaderMainMenu{
+    display: flex;
+    flex-direction: column;
+}
+.offcanvasheaderlinks{
+    color: #95979d;
+    margin: 0;
+    font-weight: 300;
+    padding: 8px 20px;
+}
+.offcanvassubMenu{
+    display: flex;
+    flex-direction: column;
+}
+.offcanvassubMenuHeader{
+    padding: 8px 20px;
+}
+.offcanvassubMenuHeading{
+    padding: 30px 0 10px;
+    font-size: 14px;
+    color: #404145;
+    font-weight: 600;
+    border-bottom: 1px solid #dadbdd;
+}
+.offcanvasHeaderActive{
+    transform: translateX(0);
+}
+.offcanvasHeaderOverlayActive{
+    transform: translateX(0);
+}
+/* Header Section Completed */

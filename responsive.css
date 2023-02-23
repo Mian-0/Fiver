@@ -1,0 +1,72 @@
+/* Header Section */
+@media screen and (min-width:1161px) {
+    .HeaderMenuBtn{
+        display: none;
+    }
+    .offcanvasHeader{
+        display: none;
+    }
+    .offcanvasHeaderOverlay{
+        display: none;
+    }
+}
+@media screen and (max-width:1160px) {
+    .headerCol1{
+        display: flex;
+        align-items: center;
+    }
+    /* .header-logo-icon{
+        fill: #000 !important;
+    }
+    .headerContainer{
+        background-color: white;
+    }
+    .HeaderBtnJoin{
+        color: #1dbf73 !important;
+        border-color: #1dbf73;
+    }
+    .headerlinks{
+        color: #62646a;
+    } */
+}
+@media screen and (max-width:1160px) and (min-width:899px) {
+    .hide-Header-Nav-900{
+        display: none;
+    }
+}
+@media screen and (max-width:899px) and (min-width:600px) {
+    .hide-Header-Nav-768{
+        display: none;
+    }
+}
+@media screen and (min-width:599px) {
+    .hide-Header-Nav-mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .hide-Header-Nav-768{
+        display: none;
+    }
+    .hide-Header-Nav-599{
+        display: none;
+    }
+    .headerRow{
+        padding: 0 24px;
+    }
+    .HeaderBtnJoin{
+        border: none;
+        padding: 0;
+        color: #62646a;
+        font-size: 16px;
+    }
+    .header-logo-icon{
+        fill: #000 !important;
+    }
+    .headerContainer{
+        background-color: white;
+    }
+    
+}
+/* Header Section Completed */
