@@ -70,3 +70,89 @@
     
 }
 /* Header Section Completed */
+
+/* Hero Section  */
+@media screen and (min-width:1160px) {
+    
+}
+@media screen and (max-width:1159px) {
+    .heroContainer{
+        background-color: #1b1a1d;
+        height: 600px;
+    }
+    .heroRow{
+        top: 80px;
+        width: 590px;
+        padding: 0;
+        padding-left: 32px;
+        margin: 0;
+    }
+    .heroCol1{
+        width: 100%;
+    }
+    .heroTitle {
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 600;
+    }
+    .popular-btn-list-hero{
+        flex-wrap: wrap;
+    }
+    .PaddingForMobile{
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width:899px) {
+    .heroContainer{
+        background-color: #1b1a1d;
+        height: 415px;
+    }
+    .heroRow{
+        top: 80px;
+        width: 100%;
+        padding: 0;
+        display: block;
+        padding: 0 32px;
+        margin: 0;
+    }
+    .heroCol1{
+        width: 100%;
+        padding: 16px 64px 96px;
+        max-width: 100%;
+    }
+    .HideBtnSearch{
+        display: none;
+    }
+    .HidePoupular{
+        display: none;
+    }
+    .search-form{
+        background: none;
+        flex-direction: column;
+    }
+    .SearchInput{
+        width: 100%;
+    }
+    .SearchBtnHero{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:599px) {
+    .heroCol1{
+        width: 100%;
+        padding: 0;
+        max-width: 100%;
+    }
+    .heroRow{
+        padding: 48px 24px 0;
+    }
+    .heroTitle{
+        font-size: 32px;
+        line-height: 1;
+    }
+}
+/* Hero Section Completed */
+
+/* Trusted Section */
+/* Trusted Section Completed */

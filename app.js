@@ -1,3 +1,4 @@
+// Header Section
 const burgermobile = document.querySelector('.offcanvasTogler1');
 const burger = document.querySelector('.offcanvasTogler2');
 const offcanvas = document.querySelector('.offcanvasHeader');
@@ -31,3 +32,7 @@ const navClose = ()=> {
 navSlide();
 navSlide2();
 navClose();
+// Header Section Completed
+
+// Hero Section
+// Hero Section Completed
