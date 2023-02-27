@@ -72,13 +72,10 @@
 /* Header Section Completed */
 
 /* Hero Section  */
-@media screen and (min-width:1160px) {
-    
-}
 @media screen and (max-width:1159px) {
     .heroContainer{
         background-color: #1b1a1d;
-        height: 600px;
+        height: 680px;
     }
     .heroRow{
         top: 80px;
@@ -86,6 +83,7 @@
         padding: 0;
         padding-left: 32px;
         margin: 0;
+        height: 600px;
     }
     .heroCol1{
         width: 100%;
@@ -146,6 +144,7 @@
     }
     .heroRow{
         padding: 48px 24px 0;
+        height: 350px;
     }
     .heroTitle{
         font-size: 32px;
@@ -155,4 +154,33 @@
 /* Hero Section Completed */
 
 /* Trusted Section */
+@media screen and (max-width:1159px) {
+    .trustedRow{
+        padding: 0 32px;
+        margin: 0;
+    }
+    .trusted-by-text{
+        display: none;
+    }
+}
+@media screen and (max-width:899px) {
+    .trustedContainer{
+        margin-bottom: 80px;
+    }
+    .trusted-by-logos{
+        padding-right: 24px;
+    }
+}
+@media screen and (max-width:599px) {
+    .trustedContainer{
+        margin-bottom: 48px;
+    }
+    .trusted-by-last-logo{
+        display: none;
+    }
+    .trusted-by-logos{
+     
+        padding-right: 16px;
+    }
+}
 /* Trusted Section Completed */
