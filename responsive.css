@@ -206,8 +206,39 @@
     .servicesRow{
         padding: 24px;
     }
-    .servicesTitle{
+    /* Title */
+    .TitleForAllSection{
         font-size: 28px;
     }
+    /* Title Completed */
 }
 /* Services Section Completed */
+
+/* Freelance Section  */
+@media screen and (max-width:1159px) {
+
+}
+
+@media screen and (max-width:899px) {
+    .freelanceContainer{
+        margin-bottom: 80px;
+    }
+    .freelanceRow{
+        flex-wrap: wrap;
+    }
+    .freelancecol1 ,.freelancecol2{
+        width: 100%;
+    }
+    .freelancecol1{
+        padding: 0 8px 48px;
+    }
+}
+@media screen and (max-width:599px) {
+    .freelanceRow{
+        padding: 48px 24px; 
+    }
+    .freelanceContainer{
+        margin-bottom: 48px;
+    }
+}
+/* Freelance Section Completed */

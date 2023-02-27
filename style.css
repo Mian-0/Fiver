@@ -285,12 +285,14 @@ nav {
     max-width: 1400px;
     padding: 0 32px;
 }
-.servicesTitle{
+/* title */
+.TitleForAllSection{
     font-size: 32px;
     font-weight: 600;
     color: #404145;
     padding-bottom: 24px;
 }
+/* Title Completed */
 .servicesCard{
     height: 345px;
     width: 255px;
@@ -350,3 +352,58 @@ nav {
 }
 /* Services Slider Completed*/
 /* Services Section Completed */
+
+/* Freelance Section  */
+.freelanceContainer{
+    background-color: #f1fdf7;
+    margin-bottom: 96px;
+}
+.freelanceRow{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 32px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+}
+.freelancecol1{
+    padding-right: 10%;
+    padding-left: 16px;
+    width: 50%;
+}
+.freelanceList{
+    list-style: none;
+}
+.freelanceListItem{
+    padding-bottom: 24px;
+}
+.freelaceulTitles{
+    font-size: 18px;
+    padding-bottom: 8px;
+    color: #404145;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+}
+.freelanceTitleIcon{
+    margin-right: 10px;
+}
+.freelanceText{
+    font-size: 18px;
+    color: #62646a;
+}
+.freelancecol2{
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.freelanceImageContainer{
+    width: 100%;
+}
+.freelaceImage{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+/* Freelance Section Completed */
