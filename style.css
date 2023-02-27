@@ -275,3 +275,78 @@ nav {
     padding: 0;
 }
 /* Trusted Section Completed */
+
+/* Services Section */
+.servicesContainer{
+    margin-bottom: 96px;
+}
+.servicesRow{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 32px;
+}
+.servicesTitle{
+    font-size: 32px;
+    font-weight: 600;
+    color: #404145;
+    padding-bottom: 24px;
+}
+.servicesCard{
+    height: 345px;
+    width: 255px;
+}
+.servicesCardLink{
+    position: relative;
+    top: -63px;
+    text-decoration: none;
+}
+.servicesCardText{
+    position: relative;
+    top: 74px;
+    color: #fff;
+    padding: 16px;
+    padding-top: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    width: 166px;
+    z-index: 1;
+    line-height: 1;
+}
+.servicesCardText small{
+    font-size: 14px;
+    font-weight: 400;
+}
+.sevicesCardImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+/* Services Slider */
+.cardsSlider {
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: repeat(10, 255px);
+    padding: 0;
+	grid-template-rows: 1fr;
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem;
+	overflow: scroll;
+    overflow-y: hidden;
+	scroll-snap-type: both mandatory;
+	scroll-padding: 1rem;
+}
+
+.active {
+	scroll-snap-type: unset;
+}
+
+.CardliServices {
+	scroll-snap-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 0;
+    width: 100%;
+}
+/* Services Slider Completed*/
+/* Services Section Completed */
