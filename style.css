@@ -16,6 +16,7 @@ body {
 i{
     font-family: 'Playfair Display', serif;
     font-style: italic;
+    color: white;
 }
 /* Header Section */
 .headerContainer{
@@ -445,3 +446,71 @@ nav {
     width: 70px;
 }
 /* Marketplace Section Completed */
+
+/* Business Section */
+.businessContainer{
+    background-Color: #0d084d;
+    margin-bottom: 96px;
+}
+.businessRow{
+    max-width: 1400px;
+    padding: 96px 32px;
+    margin: 0 auto;
+    display: flex;
+}
+.businesscol1{
+    padding-right: 5%;
+    width: 50%;
+}
+.businessLogoContainer{
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+}
+.businessBadge{
+    background-color: #584aff;
+    border-color: #584aff;
+    border-radius: 999px;
+    padding: 3px 7px 2px;
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+}
+.businessTitle{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 24px;
+    margin-right: auto;
+    max-width: 450px
+}
+.businessText{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 32px;
+    margin-right: auto;
+    max-width: 450px
+}
+.businessList{
+    list-style: none;
+    margin-bottom: 48px;
+    margin-right: auto;
+    max-width: 450px
+}
+.businessListTitles{
+    font-size: 16px;
+    padding-bottom: 12px;
+    color: white;
+    font-weight: 400;
+}
+.businesscol2{
+    width: 50%;
+    align-items: center;
+    display: flex;
+}
+.BussinessBtn{
+    width: 260px;
+    height: 45px;
+}
+/* Business Section Completed */

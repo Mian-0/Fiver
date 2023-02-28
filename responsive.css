@@ -258,3 +258,38 @@
     }
 }
 /* Marketplace Section Completed */
+
+/* Business Section */
+@media screen and (max-width:899px) {
+    .businessContainer{
+        margin-bottom: 80px;
+    }
+    .businessRow{
+        flex-wrap: wrap;
+        padding: 48px 32px;
+    }
+    .businesscol1 ,.businesscol2{
+        width: 100%;
+    }
+    .businessTitle, .businessText, .businessList{
+        max-width: 100%;
+    }
+    .BussinessBtn{
+        width: 260px;
+        height: 45px;
+    }
+    .businesscol2{
+        margin-top: 40px;
+    }
+
+}
+@media screen and (max-width:599px) {
+    .businessContainer{
+        margin-bottom: 48px;
+    }
+    .businessRow{
+        flex-wrap: wrap;
+        padding: 48px 16px;
+    }
+}
+/* Business Section Completed */ 
