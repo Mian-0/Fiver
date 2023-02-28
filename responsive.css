@@ -395,3 +395,33 @@
     }
 }
 /* Logo Section Completed */
+
+/* Projects Section */
+@media screen and (max-width:1159px) {
+    .projectsRow{
+        padding: 64px 32px;
+    }
+}
+@media screen and (max-width:899px) {
+    .projectsRow{
+        padding: 48px 32px;
+    }
+    .projectsContainer{
+        margin-bottom: 80px;
+    }
+    .hide-MoreProjectsBtnMobile{
+        display: none;
+    }
+    .hide-MoreProjectsBtnDesktop{
+        display: block;
+    }
+}
+@media screen and (max-width:599px) {
+    .projectsContainer{
+        margin-bottom: 48px;
+    }
+    .projectsRow{
+        padding: 48px 24px;
+    }
+}
+/* Projects Section Completed */

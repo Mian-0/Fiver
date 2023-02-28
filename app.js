@@ -97,3 +97,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 // Testimonials Section Completed
+
+// Projects Section
+// Projects Section Completed
