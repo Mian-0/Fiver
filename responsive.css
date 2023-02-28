@@ -345,3 +345,53 @@
     }
 }
 /* Testimonial Section Completed */
+
+/* Logo Section */
+@media screen and (max-width:1159px) {
+    .logoCol1 {
+        padding: 36px 0 36px 32px;
+    }
+    .hideMobileLogo{
+        display: none;
+    }
+}
+@media screen and (max-width:899px) {
+    .logoContainer{
+        margin-bottom: 80px;
+    }
+    .logoRow{
+        background-image: none;
+
+    }
+    .hideTabLogo{
+        display: block;
+    }
+    .tabLogo{
+        width: 100%;
+        height: auto;
+        margin-top: -30%;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:599px) {
+    .logoContainer{
+        margin-bottom: 48px;
+        padding: 0;
+    }
+    .logoCol1{
+        padding: 48px 24px;
+    }
+    .tabLogo{
+        display: none;
+    }
+    .hideMobileLogo{
+        display: block;
+    }
+    .mobileLogo{
+        width: 100%;
+        height: auto;
+        margin-top: -50%;
+        object-fit: cover;
+    }
+}
+/* Logo Section Completed */

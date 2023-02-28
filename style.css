@@ -516,9 +516,12 @@ nav {
 /* Business Section Completed */
 
 /* Testimonial Section */
+.testimonialContainer{
+    margin-bottom: 96px;
+}
 .testimonialRow{
     max-width: 1400px;
-    padding: 0 32px 96px;
+    padding: 0 32px 0;
     margin: 0 auto;
 }
 .testimonialSlideContainer{
@@ -643,3 +646,50 @@ nav {
   }
 /* Slider Testimonial Completed */
 /* Testimonial Section Completed */
+
+/* Logo Section */
+.logoContainer{
+    padding: 0 32px;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 96px;
+}
+.logoRow{
+    color: white;
+    background: url("./img/logoSection.webp");
+    background-size: cover;
+    background-position: center;
+    background-color: #446ee7;
+}
+.logoCol1{
+    padding: 36px 0 36px 76px;
+}
+.logo-maker-logo{
+    padding-bottom: 16px;
+}
+.Logo-Title{
+    font-size: 34px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    line-height: 39px;
+}
+.Logo-Description{
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.LogoMakerBtn{
+    padding: 12px 24px;
+    background: white;
+    color: #446ee7;
+    font-size: 16px;
+}
+.LogoMakerBtn:hover{
+    background-color: #b9c9f7;
+}
+.hideTabLogo{
+    display: none;
+}
+.hideMobileLogo{
+    display: none;
+}
+/* Logo Section Completed */
