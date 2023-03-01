@@ -425,3 +425,42 @@
     }
 }
 /* Projects Section Completed */
+
+/* Guides Section */
+@media screen and (max-width:1159px) {
+    
+}
+@media screen and (max-width:899px) {
+    .guidesContainer{
+        margin-bottom: 80px;
+    }
+    .guidesCol2{
+        flex-wrap: wrap;
+    }
+    .guidesCard1, .guidesCard2, .guidesCard3{
+        width: 50%;
+    }
+    .guidesCard3{
+        margin-top: 20px;
+        padding-left: 0;
+    }
+}
+@media screen and (max-width:599px) {
+    .guidesContainer{
+        margin-bottom: 48px;
+    }
+    .guidesRow{
+        padding: 0 24px;
+    }
+    .guidesCard1, .guidesCard2, .guidesCard3{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .guidesTitle{
+        padding: 0px;
+    }
+    .guidesCardTitle{
+        font-size: 16px;
+    }
+}
+/* Guides Section Completed */

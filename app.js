@@ -38,33 +38,35 @@ navClose();
 // Hero Section Completed
 
 // Services Section
-const slider = document.querySelector('.cardsSlider');
-let isDown = false;
-let startX;
-let scrollLeft;
+function  movesliderServices() {
+  const slider = document.getElementById('ServicesSlider');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
 
-slider.addEventListener('mousedown', e => {
-  isDown = true;
-  slider.classList.add('active');
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
-});
-slider.addEventListener('mouseleave', _ => {
-  isDown = false;
-  slider.classList.remove('active');
-});
-slider.addEventListener('mouseup', _ => {
-  isDown = false;
-  slider.classList.remove('active');
-});
-slider.addEventListener('mousemove', e => {
-  if (!isDown) return;
-  e.preventDefault();
-  const x = e.pageX - slider.offsetLeft;
-  const SCROLL_SPEED = 3;
-  const walk = (x - startX) * SCROLL_SPEED;
-  slider.scrollLeft = scrollLeft - walk;
-});
+  slider.addEventListener('mousedown', e => {
+    isDown = true;
+    slider.classList.add('active');
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+  });
+  slider.addEventListener('mouseleave', _ => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+  slider.addEventListener('mouseup', _ => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+  slider.addEventListener('mousemove', e => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - slider.offsetLeft;
+    const SCROLL_SPEED = 3;
+    const walk = (x - startX) * SCROLL_SPEED;
+    slider.scrollLeft = scrollLeft - walk;
+  });
+}
 // Services Section Completed
 
 // Testimonials Section
@@ -91,12 +93,41 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" activetestimonial", "");
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].className += " activetestimonial";
 }
 // Testimonials Section Completed
 
 // Projects Section
+function  movesliderProjects() {
+  const slider = document.getElementById('ProjectsSlider');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  slider.addEventListener('mousedown', e => {
+    isDown = true;
+    slider.classList.add('active');
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+  });
+  slider.addEventListener('mouseleave', _ => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+  slider.addEventListener('mouseup', _ => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+  slider.addEventListener('mousemove', e => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - slider.offsetLeft;
+    const SCROLL_SPEED = 3;
+    const walk = (x - startX) * SCROLL_SPEED;
+    slider.scrollLeft = scrollLeft - walk;
+  });
+}
 // Projects Section Completed

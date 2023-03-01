@@ -343,6 +343,9 @@ nav {
 .active {
 	scroll-snap-type: unset;
 }
+.activeProjects {
+	scroll-snap-type: unset;
+}
 
 .CardliServices {
 	scroll-snap-align: center;
@@ -610,7 +613,7 @@ nav {
     transition: background-color 0.6s ease;
   }
   
-  .active, .dot:hover {
+  .activetestimonial, .dot:hover {
     background-color: #717171;
   }
 
@@ -739,3 +742,60 @@ nav {
     display: none;
 }
 /* Projects Section Completed */
+
+/* Guides Section */
+.guidesContainer{
+    margin-bottom: 96px;
+}
+.guidesRow{
+    padding: 0 32px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.guidesCol1{
+    display: flex;
+    justify-content: space-between;
+}
+.guidesCol2{
+    display: flex;
+    justify-content: space-between;
+}
+.guidesCard1{
+    padding-right: 16px;
+    width: 33.33%;
+}
+.guidesCard2{
+    padding-right: 16px;
+    width: 33.33%;
+}
+.guidesCard3{
+    padding-left: 16px;
+    width: 33.33%;
+}
+.guidesCardContainer{
+    width: 100%;
+}
+.guidesCardCol1{
+    margin-bottom: 12px;
+}
+.guidesCardImage{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+.guidesCardTitle{
+    font-size: 18px;
+    padding: 0 0 2px;
+    color: #404145;
+    font-weight: 600;
+    line-height: 140%;
+    word-spacing: 0.001px;
+}
+.guidesCardText{
+    font-size: 16px;
+    color: #74767e;
+    font-weight: 400;
+    word-spacing: 0.001px;
+    margin-top: -4px;
+}
+/* Guides Section Completed */
