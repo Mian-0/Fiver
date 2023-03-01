@@ -464,3 +464,45 @@
     }
 }
 /* Guides Section Completed */
+
+/* Talent Section */
+@media screen and (max-width:1159px) {
+    .talentRow{
+        padding: 80px 32px;
+        background: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1160,dpr_2.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608134/bg-signup-1160-x2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Talent-Title{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:899px) {
+    .talentContainer{
+        margin-bottom: 88px;
+    }
+    .talentRow{
+        background: none;
+        background-color: #45091b;
+    }
+    .talentcol1{
+        width: 90%;
+    }
+}
+@media screen and (max-width:599px) {
+    .talentContainer{
+        padding: 0 24px;
+        margin-bottom: 64px;
+    }
+    .talentRow{
+        padding: 48px 24px;
+    }
+    .talentcol1{
+        width: 100%;
+    }
+    .Talent-Title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+/* Talent Section Completed */

@@ -799,3 +799,33 @@ nav {
     margin-top: -4px;
 }
 /* Guides Section Completed */
+
+/* Talent Section */
+.talentContainer{
+    padding: 0 32px;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.talentRow{
+    padding: 120px 96px;
+    background: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.talentcol1{
+    width: 650px;
+}
+.Talent-Title{
+    color: white;
+    font-size: 48px;
+    padding-bottom: 40px;
+    line-height: 56px;
+    font-weight: 600;
+}
+.TalentBtn{
+    padding: 12px 24px;
+    font-size: 16px;
+}
+/* Talent Section Completed */
