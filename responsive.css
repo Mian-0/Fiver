@@ -576,7 +576,7 @@
       }
       
       .active, .accordion:hover {
-        /* background-color: #ccc;  */
+        transition: all 2s ease-in-out;
       }
       
       .panel {
